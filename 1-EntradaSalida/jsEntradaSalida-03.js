@@ -5,7 +5,8 @@ function mostrar()
 {
 	var vnombre;
 
-	vnombre = document.getElementById("txtIdNombre").value;
+	vnombre = document.getElementById("txtIdNombre").value; //document lo uso para encontrar en la pagina html//
+
 	alert(vnombre)
 
 
