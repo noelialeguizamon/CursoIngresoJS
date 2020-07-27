@@ -2,9 +2,8 @@
 Debemos lograr tomar nombre y edad por ID y mostrarlos concatenados 
 ej.: "Usted se llama José y tiene 66 años" 	*/
 function mostrar()
-{	
+{	      //declarar las variable y las constantes antes de empezar a codear//
 	var vnombre;
-
 	var vedad;
 
 	vnombre = document.getElementById("txtIdNombre").value;
