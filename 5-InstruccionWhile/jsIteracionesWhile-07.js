@@ -16,9 +16,9 @@ function mostrar()
 		acumulador = acumulador + num;
 		contador = contador +1; //itterar a contador//
 
-		respuesta = prompt("ingresa otro? s/n ");
+		respuesta = prompt("ingresa otro? si/no ");
 
-	} while(respuesta == "s"); //cuando corre desde do... me pregunta ingrese un num...
+	} while(respuesta == "si"); //cuando corre desde do... me pregunta ingrese un num...
 								//luego me preguntara si quiero seguir.. si pongo que si 
 								//el loop vuelve a "do" y vuelve a preguntar hasta que no 
 								//pongas mas si...
