@@ -8,7 +8,7 @@ function mostrar()
 	numingreso = parseInt(prompt("ingrese un numero entre 0 y 10."));
 	document.getElementById("txtIdNumero").value = numingreso;
 	}
-	while(!(numingreso >=0 && numingreso <=10));
+	while(!(numingreso >=0 && numingreso <10));
 
 	//numingreso;
 	//numingreso = prompt("ingrese un numero entre 0 y 10.");

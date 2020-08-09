@@ -1,15 +1,17 @@
 function mostrar()
 {	//alert("ok");
-	let num = parseInt(prompt("ingrese un numero:"));
-	let cont=0;
-
-	for(let i=1; i>1 ; i++){
-	if(i%2==0){
-		alert("el numero "+i+" es par");
-		cont++;
+	let num;
+	let contador=0;
+	num = parseInt(prompt("ingrese un numero:"))
+	for(let i=1; i<=num ; i++){
+	
+		if(i%2==0){
+		console.log(i+" es numero par.");//alert("el numero "+i+" es par");
+		contador++;
 	}	
 	}
-	alert("se encontraron "+cont+" numeros pares");
+	console.log(contador+" encontrados.");	
+//alert("se encontraron "+contador+" numeros pares");
 
 
 
